@@ -55,6 +55,12 @@
 }
 .model-options {
     position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 .model-card-label{
     
@@ -64,6 +70,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -128,6 +135,9 @@
     padding: 1em 5em;
 }
 .model-heading-tools{
+    display: flex;
+    justify-content: center;
+   
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -140,6 +150,9 @@
     
 }
 .flex-model-disc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 0.5em;
     transition: all 0.5s ease-out;
     display: flex;
